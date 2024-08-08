@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(255, 228, 154);
+}
+.container-main{
+    background-color: white;
+    height: 700px;
+    width: 64%;
+    border-radius: 40px;
+    box-shadow: 1px 2px 20px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+}
+.container-main .navbar{
+    margin-left: 54px;
+    padding-top: 34px;
+    margin-right: 54px;
+    position: fixed;
+}
+.container-main .navbar .logo{
+    position: fixed;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-top: -32px;
+}
+.container-main .navbar .hiring{
+    border-radius: 30px;
+    background: linear-gradient(to right, orange , rgb(241, 95, 144));
+    color: white;
+    padding: 5px 14px 5px 14px;
+    position: fixed;
+    margin-left: 92px;
+    border-style: none;
+    margin-top: 3px;
+
+}
+.container-main .navbar .center-bar ul{
+    position: fixed;
+    margin-top: -27px;
+    margin-left: 300px;
+}
+.container-main .navbar .center-bar ul li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 30px;
+}
+.container-main .navbar .center-bar ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+}
+.container-main .navbar .center-bar ul li a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.container-main .navbar .right-bar{
+    position: fixed;
+    margin-left: 850px;
+    margin-top: -39px;
+    font-family: sans-serif;
+}
+.container-main  .navbar .right-bar a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+.container-main  .navbar .right-bar a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.container-main  .navbar .right-bar .join, 
+.text-main .join {
+    background-color: rgb(95, 95, 252);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 1px 2px 3px blue;
+    cursor: pointer;
+}
+.text-main{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    top: 200px;
+    left: 50px;
+}
+.text-main .head{
+    font-size: 44px;
+    line-height: 0.93;
+}
+.text-main .para{
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: -20px;
+}
+.text-main #mail{
+    width: 250px;
+    height: 37px;
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(224, 224, 224) ;
+    border-radius: 6px;
+}
+.text-main .tick{
+    margin-top: 20px;
+    height: 20px;
+}
+.text-main .para-t{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.image-div{
+    height: 500px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -400px;
+}
+.image-div .girl{
+    height: 400px;
+    background: linear-gradient(to right , purple , blue);
+    border-radius: 46% 54% 76% 24% / 77% 57% 43% 23%   ;
+}
+.link-bar ul{
+    margin-top: 40px;
+    position: fixed;
+}
+.link-bar ul li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 30px;
+}
+.link-bar ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.link-bar ul li a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.right-side{
+    margin-top: 20px;
+    margin-left: 800px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.right-side img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.right-side .p{
+    margin-left: 50px;
+    line-height: 1;
+    margin-top: -42px;
+    font-weight: bold;
+}
+.right-side .special{
+    margin-left: 50px;
+    line-height: 1;
+    margin-top: -12px;
+}
